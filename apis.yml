@@ -1,7 +1,16 @@
 aid: help
 name: HELP
-description: HELP is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  This profile was surfaced as a portfolio-linked lead of 500 Global and added to
+  the API Evangelist network as a stub for enrichment. The website pointer on this
+  record resolves to Venturz (operated by GoVenturz, LLC), an all-in-one business
+  operating system for founders that bundles 15+ tools — website builder, CRM, email
+  marketing, payments, and analytics — behind a single dashboard alongside an "AI
+  co-founder" assistant, a founder community, a startup academy, and Venturz Capital
+  funding. As of this enrichment pass Venturz publishes no public API, developer
+  portal, OpenAPI/AsyncAPI specification, SDKs, or /.well-known discovery surface, so
+  no machine-readable API artifacts could be harvested. See x-identity-note regarding
+  the stub name versus the linked brand.
 url: https://raw.githubusercontent.com/api-evangelist/help/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,35 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-identity-note: >-
+  Stub name "HELP" does not match the brand at the linked website (venturz.co =
+  Venturz / GoVenturz, LLC). Name left unchanged pending confirmation that the
+  website pointer is correctly attributed to this portfolio lead; description is
+  grounded in what venturz.co actually publishes.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://production-server-default-bucket.s3.amazonaws.com/66c598cc7bb3711634d57410
 tags:
 - Company
+- Startups
+- No-Code
+- Business Operating System
+- CRM
+- Website Builder
+- Founder Tools
+- AI
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,20 @@ maintainers:
 common:
 - type: Website
   url: https://venturz.co
+- type: Blog
+  url: https://venturz.co/blog
+- type: Pricing
+  url: https://venturz.co/pricing
+- type: TermsOfService
+  url: https://venturz.co/terms
+- type: PrivacyPolicy
+  url: https://venturz.co/privacy
+- type: SignUp
+  url: https://app.venturz.co
+- type: DomainSecurity
+  url: security/help-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
