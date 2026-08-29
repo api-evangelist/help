@@ -23,6 +23,17 @@ x-identity-note: >-
   Venturz / GoVenturz, LLC). Name left unchanged pending confirmation that the
   website pointer is correctly attributed to this portfolio lead; description is
   grounded in what venturz.co actually publishes.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
