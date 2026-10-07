@@ -1,0 +1,53 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://venturz.co/pricing
+sources:
+- https://venturz.co/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Sprout
+published: true
+note: All-in-one startup platform tiers; also states 'we charge a flat 1% platform fee per transaction
+  (in addition to standard Stripe fees)'. No API pricing stated.
+plan_count: 4
+currency: USD
+plans:
+- name: Seed
+  price_text: $ 0 /m
+  price: 0
+  currency: USD
+  period: month
+  included_quota: 1000 messages & posts, 5000 contacts, 100000 AI tokens, 1 team member, 1000 MB storage
+  overage: unit-based pricing for the extra usage
+- name: Sprout
+  price_text: $ 29 /m
+  price: 29
+  currency: USD
+  period: month
+  included_quota: 10000 messages & posts, 50000 contacts, 500000 AI tokens, 10000 MB storage
+  overage: unit-based pricing for the extra usage
+- name: Sapling
+  price_text: $ 79 /m
+  price: 79
+  currency: USD
+  period: month
+  included_quota: 50000 messages & posts, 250000 contacts, 1000000 AI tokens, 50000 MB storage
+  overage: unit-based pricing for the extra usage
+- name: Plant
+  price_text: $ 199 /m
+  price: 199
+  currency: USD
+  period: month
+  included_quota: 250000 messages & posts, 500000 contacts, 2000000 AI tokens, 100000 MB storage
+  overage: unit-based pricing for the extra usage
+rate_limit_statements:
+- Fair usage policy applies on all the unlimited features.
